@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABU's Blog Post</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="progress-container"><div id="progress-bar"></div></div>
+    <nav>
+      <button id="hamburger" class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-menu">
+        <li>
+          <a href="#home" data-description="Go to the top section">Home</a>
+        </li>
+        <li class="dropdown">
+          <a href="#services" data-description="Our services">Services</a>
+          <ul class="dropdown-menu">
+            <li><a href="#clinical-care">Clinical Care</a></li>
+            <li><a href="#consultation">Consultation</a></li>
+            <li><a href="#wellness">Wellness Programs</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#blog" data-description="Read our blog">Blog</a>
+          <ul class="dropdown-menu">
+            <li><a href="#health-tips">Health Tips</a></li>
+            <li><a href="#nutrition">Nutrition</a></li>
+            <li><a href="#lifestyle">Lifestyle</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#contact" data-description="Find contact details">Contact</a>
+        </li>
+      </ul>
+      <button id="theme-toggle">🌙</button>
+    </nav>
+    <section class="hero" id="home">
+      <h2 data-aos="fade-up" data-aos-duration="1000">Welcome to ABU's Blog</h2>
+      <p>
+        Discover insights on blogging, writing, and creative content creation
+      </p>
+      <p>Published on <time datetime="2026-03-07">March 7, 2026</time></p>
+      <button
+        class="cta-button"
+        data-aos="fade-left"
+        data-aos-duration="1000"
+        data-aos-delay="500"
+        aria-label="Read more about our blog"
+      >
+        Read More
+      </button>
+    </section>
+    <main id="about">
+      <article>
+        <h2>Did you know?</h2>
+        <p>
+          Like many things in life, blogging is easier said than done. You might
+          have a great concept for a post, but when it comes to writing it, it
+          just doesn’t come out the way you want it. Or even worse, you get a
+          nasty case of writer’s block and spend hours staring at a blank page
+          with nothing to show. If you’re having trouble getting the gears
+          turning for your blog, then keep reading. This article will teach you
+          everything you need to know about writing your next blog post and give
+          a few insightful examples to encourage and inspire you.
+        </p>
+        <p>
+          However, with the right approach and a bit of practice, you can
+          overcome these challenges and create engaging content that resonates
+          with your audience.
+        </p>
+      </article>
+    </main>
+    <section id="blog">
+      <div class="filter-buttons">
+        <button class="filter-btn" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="Health">Health</button>
+        <button class="filter-btn" data-filter="Technology">Technology</button>
+        <button class="filter-btn" data-filter="Business">Business</button>
+      </div>
+      <h2>Latest Blog Posts</h2>
+      <div class="blog-cards">
+        <div class="blog-card" data-category="Health">
+          <h3>The Benefits of Daily Exercise</h3>
+          <p>By Dr. Abu</p>
+          <p>
+            Regular physical activity is essential for maintaining good health
+            and preventing chronic diseases. Engaging in daily exercise can
+            improve cardiovascular health, strengthen muscles, and boost mental
+            well-being. Whether it's a brisk walk or a full workout,
+            incorporating movement into your routine leads to a longer, more
+            vibrant life.
+          </p>
+          <p class="extra-content">
+            Studies show that even moderate exercise, like 30 minutes of walking
+            daily, can reduce the risk of heart disease by up to 30%.
+            Additionally, exercise releases endorphins, which are natural mood
+            lifters that help combat stress and anxiety. Building a consistent
+            routine doesn't have to be complicated; start small and gradually
+            increase intensity to make it sustainable.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+        <div class="blog-card" data-category="Health">
+          <h3>Mindful Eating for Better Nutrition</h3>
+          <p>By Dr. Abu</p>
+          <p>
+            Mindful eating involves paying full attention to the experience of
+            eating, which can lead to healthier food choices. By slowing down
+            and savoring each bite, you become more aware of hunger cues and
+            satisfaction levels. This practice not only improves digestion but
+            also helps in developing a positive relationship with food.
+          </p>
+          <p class="extra-content">
+            This approach encourages listening to your body's signals rather
+            than eating out of habit or emotion. Research indicates that mindful
+            eaters tend to consume fewer calories and experience greater
+            satisfaction from meals. To practice, try eating without
+            distractions, chew slowly, and reflect on the flavors and textures
+            of your food.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+        <div class="blog-card" data-category="Technology">
+          <h3>The Rise of Artificial Intelligence</h3>
+          <p>By Pondei</p>
+          <p>
+            Artificial intelligence is transforming industries by automating
+            tasks and providing insights from data. From self-driving cars to
+            personalized recommendations, AI enhances efficiency and innovation.
+            As technology advances, understanding AI becomes crucial for staying
+            competitive in the modern world.
+          </p>
+          <p class="extra-content">
+            Machine learning algorithms can predict consumer behavior, optimize
+            supply chains, and even assist in medical diagnoses. However, with
+            great power comes responsibility; ethical considerations around data
+            privacy and bias must be addressed. As AI continues to evolve,
+            professionals in all fields should familiarize themselves with its
+            capabilities to stay ahead.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+        <div class="blog-card" data-category="Technology">
+          <h3>Cybersecurity in the Digital Age</h3>
+          <p>By Pondei</p>
+          <p>
+            With increasing online threats, cybersecurity is more important than
+            ever for individuals and businesses. Protecting personal data
+            requires strong passwords, regular updates, and awareness of
+            phishing scams. Implementing robust security measures can prevent
+            breaches and safeguard digital assets.
+          </p>
+          <p class="extra-content">
+            Common threats include phishing emails that trick users into
+            revealing sensitive information and malware that can encrypt files
+            for ransom. To stay safe, always use strong, unique passwords and
+            enable two-factor authentication. Regularly updating software and
+            backing up data are also crucial preventive measures.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+        <div class="blog-card" data-category="Business">
+          <h3>Building a Successful Startup</h3>
+          <p>By BossLadyMuslimah</p>
+          <p>
+            Starting a business requires careful planning, market research, and
+            a clear vision. Identifying a niche and understanding customer needs
+            are key to early success. Scaling operations while maintaining
+            quality ensures long-term growth and profitability.
+          </p>
+          <p class="extra-content">
+            Market research helps identify gaps in the market and understand
+            potential customers' needs. Once a viable idea is found, creating a
+            solid business plan outlines goals, strategies, and financial
+            projections. Securing funding through investors, loans, or
+            bootstrapping is often the next step, followed by building a
+            talented team to execute the vision.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+        <div class="blog-card" data-category="Business">
+          <h3>Leadership Skills for Entrepreneurs</h3>
+          <p>By BossLadyMuslimah</p>
+          <p>
+            Effective leadership involves inspiring teams, making tough
+            decisions, and fostering innovation. Entrepreneurs must communicate
+            clearly and adapt to changing circumstances. Developing these skills
+            leads to motivated employees and sustainable business practices.
+          </p>
+          <p class="extra-content">
+            Great leaders communicate vision clearly, inspire their teams, and
+            make decisions that align with long-term objectives. They also
+            foster a culture of innovation by encouraging creativity and
+            learning from failures. In today's fast-paced business environment,
+            adaptability and emotional intelligence are key traits for
+            successful entrepreneurs.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+    </section>
+    <footer id="contact">
+      <p>&copy; 2026 ABU's Blog. All rights reserved.</p>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <div id="newsletter-modal" class="modal-hidden">
+      <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h2>Join the Community</h2>
+        <p>Get the latest updates from Dr. Abu and the team.</p>
+        <input type="email" placeholder="Your email address" />
+        <button>Subscribe</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
